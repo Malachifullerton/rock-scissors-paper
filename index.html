@@ -5,46 +5,8 @@
         <title>My first webpage</title>
     </head>
     <body>
-        <script>
-            // const words = ['rock', 'paper', 'scissors']
-            // function getComputerChoice () {
-                // Math.random(words)
-            // }
-            // console.log(getComputerChoice ())
+        
+      <script src="rpc.js"></script>
 
-        function getComputerChoice() {
-         let randomNum=   Math.floor(Math.random() * (2 - 0 + 1)) + 0;
-         let randomWord ;
-         if (randomNum == 0){
-            return "rock";
-         }
-         else if(randomNum == 1) {
-            return "paper";
-         }
-         else{
-            return "scissor";
-         }
-         //console.log("Computer output: " )
-        }
-
-        const getHumanChoice = () => {
- let userInput = prompt("what is your word?")
- console.log("User input: ", userInput)
- if (userInput == "rock"){
-    return getComputerChoice()
- }else if(userInput == "paper"){
-    return getComputerChoice()
- }else if(userInput == "scissor"){
-    return getComputerChoice()
- }else{
-    return "INVALID WORD!, input, 'rock', 'paper' or 'scissor'"
- }
-}
-
-        console.log(getHumanChoice())
-        console.log(getComputerChoice())
-
-
-        </script>
    </body>
 </html>
